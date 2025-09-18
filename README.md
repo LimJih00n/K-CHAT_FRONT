@@ -189,6 +189,92 @@ ship-control/
 - **Danger (Red)**: `#EF4444` - 긴급, 위험 상태
 - **Background**: Glass Morphism 효과 적용
 
+### 🪟 Glass Morphism 디자인 시스템
+
+프로젝트 전체에 일관된 Glass Morphism 디자인을 적용하여 현대적이고 세련된 UI를 구현했습니다.
+
+#### 핵심 Glass Morphism 스타일
+```css
+/* 기본 Glass 효과 */
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+```
+
+#### Glass Morphism 적용 컴포넌트
+
+1. **ShipManagementPanel (선박 관리 패널)**
+   ```tsx
+   className="backdrop-blur-xl bg-white/10 rounded-3xl shadow-xl"
+   ```
+   - 위치: 우측 상단 (right: 20px, top: 20px)
+   - 특징: 반투명 배경에 블러 효과
+   - 하위 요소: `bg-black/20 backdrop-blur` 카드 스타일
+
+2. **ControlPanel (컨트롤 패널)**
+   ```tsx
+   className="backdrop-blur-xl bg-white/10 rounded-3xl"
+   ```
+   - 위치: 좌측 상단 (left: 20px, top: 20px)
+   - 버튼 스타일: `bg-black/2 hover:bg-black/5`
+   - 테두리: `border-white/30`
+
+3. **TimeSlider (시간 제어)**
+   ```tsx
+   className="backdrop-blur-xl bg-white/2 border-white/30 rounded-3xl"
+   ```
+   - 위치: 하단 중앙
+   - 투명도 높은 배경으로 지도 시인성 확보
+
+4. **AnimationControl (애니메이션 제어)**
+   ```tsx
+   className="backdrop-blur-xl bg-white/2 border-white/30"
+   ```
+   - 위치: 하단 중앙 (TimeSlider 위)
+   - 버튼 호버: `hover:bg-white/5`
+
+5. **ShipInfoCard (선박 정보 카드)**
+   ```tsx
+   className="backdrop-blur-xl bg-white/2 border-white/30 rounded-2xl"
+   ```
+   - 팝업 스타일 정보 카드
+   - 닫기 버튼: `bg-white/10 hover:bg-white/20`
+
+6. **RoutePlanner (경로 계획)**
+   ```javascript
+   background: 'rgba(255, 255, 255, 0.95)'
+   backdropFilter: 'blur(10px)'
+   ```
+   - 밝은 배경의 Glass 효과
+   - 높은 가독성을 위한 불투명도 조정
+
+7. **Legend (범례)**
+   ```javascript
+   background: 'rgba(10, 10, 10, 0.85)'
+   backdropFilter: 'blur(20px)'
+   ```
+   - 어두운 Glass 효과
+   - 위치: 우측 하단
+
+8. **Mapbox Popup (선박 팝업)**
+   ```css
+   .ship-popup-glass .mapboxgl-popup-content {
+     /* Custom glass effect for map popups */
+   }
+   ```
+   - 지도 팝업에 Glass 효과 적용
+
+### Glass Morphism 디자인 원칙
+
+1. **일관성**: 모든 오버레이 컴포넌트에 동일한 디자인 언어 적용
+2. **가독성**: 배경 블러와 적절한 투명도로 콘텐츠 가독성 확보
+3. **계층구조**: 투명도 레벨로 시각적 깊이감 표현
+   - 주요 패널: `bg-white/10`
+   - 하위 요소: `bg-black/20`
+   - 호버 상태: `hover:bg-white/20`
+4. **반응형**: 호버 및 활성 상태에 따른 동적 변화
+5. **성능**: GPU 가속 `backdrop-blur` 사용
+
 ### 주요 인터페이스
 
 1. **메인 지도 뷰**
@@ -198,13 +284,20 @@ ship-control/
 
 2. **선박 관리 패널**
    - 우측 상단 위치
+   - Glass Morphism 적용
    - 선박 목록 및 상태 표시
    - 빠른 액션 버튼
 
 3. **시간 제어 슬라이더**
    - 하단 위치
+   - Glass Morphism 적용
    - 0-120분 시뮬레이션
    - 재생/일시정지 컨트롤
+
+4. **컨트롤 패널**
+   - 좌측 상단 위치
+   - Glass Morphism 적용
+   - 2D/3D 전환, 클러스터링, 혼잡도 토글
 
 ## 🔧 기술 스택
 
