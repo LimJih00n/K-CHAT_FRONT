@@ -1,0 +1,32 @@
+/* Light 모드에서 도로 라벨 스타일 조정 */
+.mapboxgl-map.light-mode .mapbox-streets-v11 {
+  /* 도로 라벨 투명도 조정 */
+}
+
+/* 커스텀 스타일 추가 시 사용 */
+.ship-control-map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* 라이트 모드 도로 색상 오버라이드 */
+.light-theme .mapboxgl-ctrl-attrib {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* 선박 정보 팝업 글래스 모피즘 스타일 */
+.ship-popup-glass .mapboxgl-popup-content {
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 16px !important;
+  box-shadow: none !important;
+}
+
+.ship-popup-glass .mapboxgl-popup-tip {
+  border-top-color: rgba(255, 255, 255, 0.3) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.3) !important;
+  border-left-color: rgba(255, 255, 255, 0.3) !important;
+  border-right-color: rgba(255, 255, 255, 0.3) !important;
+}

@@ -1,0 +1,204 @@
+{
+  "ships": [
+    {
+      "id": "ship1",
+      "name": "동해호",
+      "position": [129.5700, 35.9950],
+      "heading": 45,
+      "speed": 15,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "30분"
+    },
+    {
+      "id": "ship2",
+      "name": "포항호",
+      "position": [129.5750, 35.9920],
+      "heading": 180,
+      "speed": 10,
+      "destination": "구룡포",
+      "status": "warning",
+      "estimatedArrival": "45분"
+    },
+    {
+      "id": "ship3",
+      "name": "울산호",
+      "position": [129.5600, 36.0050],
+      "heading": 90,
+      "speed": 12,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "25분"
+    },
+    {
+      "id": "ship4",
+      "name": "경주호",
+      "position": [129.5800, 36.0100],
+      "heading": 270,
+      "speed": 8,
+      "destination": "구룡포",
+      "status": "emergency",
+      "estimatedArrival": "1시간"
+    },
+    {
+      "id": "ship5",
+      "name": "영덕호",
+      "position": [129.5650, 36.0000],
+      "heading": 135,
+      "speed": 14,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "50분"
+    },
+    {
+      "id": "ship6",
+      "name": "태평양호",
+      "position": [129.5850, 35.9880],
+      "heading": 300,
+      "speed": 18,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "22분"
+    },
+    {
+      "id": "ship7",
+      "name": "청해호",
+      "position": [129.5720, 36.0120],
+      "heading": 60,
+      "speed": 14,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "35분"
+    },
+    {
+      "id": "ship8",
+      "name": "한라호",
+      "position": [129.5680, 35.9850],
+      "heading": 220,
+      "speed": 11,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "40분"
+    },
+    {
+      "id": "ship9",
+      "name": "백두호",
+      "position": [129.5780, 35.9980],
+      "heading": 15,
+      "speed": 16,
+      "destination": "구룡포",
+      "status": "warning",
+      "estimatedArrival": "28분"
+    },
+    {
+      "id": "ship10",
+      "name": "독도호",
+      "position": [129.5900, 35.9900],
+      "heading": 270,
+      "speed": 13,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "33분"
+    },
+    {
+      "id": "ship11",
+      "name": "부산호",
+      "position": [129.2, 35.3],
+      "heading": 20,
+      "speed": 18,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "2시간 30분"
+    },
+    {
+      "id": "ship12",
+      "name": "울릉호",
+      "position": [130.5, 37.2],
+      "heading": 220,
+      "speed": 22,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "2시간"
+    },
+    {
+      "id": "ship13",
+      "name": "속초호",
+      "position": [128.8, 37.5],
+      "heading": 180,
+      "speed": 16,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "3시간"
+    },
+    {
+      "id": "ship14",
+      "name": "감포호",
+      "position": [129.5038, 35.8915],
+      "heading": 15,
+      "speed": 14,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "45분"
+    },
+    {
+      "id": "ship15",
+      "name": "대양호",
+      "position": [129.7, 36.1],
+      "heading": 230,
+      "speed": 19,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "35분"
+    },
+    {
+      "id": "ship16",
+      "name": "신라호",
+      "position": [129.3, 35.8],
+      "heading": 45,
+      "speed": 13,
+      "destination": "구룡포",
+      "status": "warning",
+      "estimatedArrival": "1시간"
+    },
+    {
+      "id": "ship17",
+      "name": "동진호",
+      "position": [129.8, 35.9],
+      "heading": 270,
+      "speed": 20,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "25분"
+    },
+    {
+      "id": "ship18",
+      "name": "영일호",
+      "position": [129.4, 36.2],
+      "heading": 150,
+      "speed": 15,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "55분"
+    },
+    {
+      "id": "ship19",
+      "name": "호동호",
+      "position": [129.6, 35.7],
+      "heading": 10,
+      "speed": 17,
+      "destination": "구룡포",
+      "status": "normal",
+      "estimatedArrival": "50분"
+    },
+    {
+      "id": "ship20",
+      "name": "해신호",
+      "position": [129.9, 36.3],
+      "heading": 200,
+      "speed": 21,
+      "destination": "구룡포",
+      "status": "emergency",
+      "estimatedArrival": "30분"
+    }
+  ]
+}
